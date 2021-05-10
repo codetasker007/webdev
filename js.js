@@ -19,8 +19,8 @@ function openCity(cityName) {
       speed: 500,
       fade: true,
       cssEase: 'linear',
-      // autoplay: true,
-      // autoplaySpeed: 2000
+      autoplay: true,
+      autoplaySpeed: 5000
     });
 
 
@@ -33,6 +33,8 @@ function openCity(cityName) {
       centerMode: true,
       centerPadding: '200px',
       slidesToShow:2,
+      autoplay: true,
+      autoplaySpeed: 5000,
       responsive: [
         {
           breakpoint: 768,
@@ -60,6 +62,8 @@ function openCity(cityName) {
       centerMode: true,
       centerPadding: '60px',
       slidesToShow: 4,
+      autoplay: true,
+      autoplaySpeed: 5000,
       responsive: [
         {
           breakpoint: 768,
@@ -91,6 +95,7 @@ function openCity(cityName) {
       lazyLoad: 'ondemand',
       slidesToShow: 3,
       slidesToScroll: 1
+      
     });
     
   });
