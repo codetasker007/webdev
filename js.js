@@ -59,7 +59,7 @@ function openCity(cityName) {
     $('.center').slick({
       centerMode: true,
       centerPadding: '60px',
-      slidesToShow: 3,
+      slidesToShow: 4,
       responsive: [
         {
           breakpoint: 768,
@@ -67,7 +67,7 @@ function openCity(cityName) {
             arrows: false,
             centerMode: true,
             centerPadding: '40px',
-            slidesToShow: 3
+            slidesToShow: 7
           }
         },
         {
@@ -82,6 +82,16 @@ function openCity(cityName) {
       ]
     });
 
+
+
+
+
+
+    $('.lazy').slick({
+      lazyLoad: 'ondemand',
+      slidesToShow: 3,
+      slidesToScroll: 1
+    });
     
   });
   // Input Lock
